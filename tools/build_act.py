@@ -320,7 +320,7 @@ def build(doc, outdir=OUT):
     _para(d, "_" * 62, size=10, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=2)
     _para(d, "IN THE SENATE OF THE STATE OF SAN ANDREAS", size=12, bold=True,
           align=WD_ALIGN_PARAGRAPH.CENTER, space_after=2)
-    _para(d, doc.get("date", "____________, 2026"), size=12,
+    _para(d, doc.get("date", "MARCH 00, 2026"), size=12,
           align=WD_ALIGN_PARAGRAPH.CENTER, space_after=2)
     _para(d, "_" * 62, size=10, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=8)
     _para(d, "ЗАКОНОПРОЕКТ", size=14, bold=True, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=2)
